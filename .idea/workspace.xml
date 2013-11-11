@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8f8e988-e18b-4e56-ad82-016ce01a9e12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/handlebars-v1.1.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/jquery-xml2json-plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/themes.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jQueryCodingExercise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,6 +43,7 @@
     <file path="$USER_HOME$/Documents/Projects/MOBILE_SYC_5/web/src/main/webapp/sellcar/zipCodeEntry.xhtml" changelist="e8f8e988-e18b-4e56-ad82-016ce01a9e12" time="1384103077164" ignored="false" />
     <file path="$USER_HOME$/Documents/Projects/MOBILE_SYC_5/web/src/main/webapp/sellcar/login.xhtml" changelist="e8f8e988-e18b-4e56-ad82-016ce01a9e12" time="1384103173185" ignored="false" />
     <file path="$USER_HOME$/Documents/Projects/MOBILE_SYC_5/web/src/main/webapp/sellcar/forgotAdId.xhtml" changelist="e8f8e988-e18b-4e56-ad82-016ce01a9e12" time="1384103179982" ignored="false" />
+    <file path="/.gitignore" changelist="e8f8e988-e18b-4e56-ad82-016ce01a9e12" time="1384139547213" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,19 +122,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="43" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.8986175">
+            <state line="39" column="43" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.04608295">
               <folding />
             </state>
           </provider>
@@ -222,6 +219,7 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/main.coffee" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -512,7 +510,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="822" extended-state="7" />
+    <frame x="0" y="22" width="1440" height="822" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -641,13 +639,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="27" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
@@ -706,7 +697,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="43" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.8986175">
+        <state line="39" column="43" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.04608295">
           <folding />
         </state>
       </provider>
