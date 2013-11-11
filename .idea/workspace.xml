@@ -43,7 +43,7 @@
     <file path="$USER_HOME$/Documents/Projects/MOBILE_SYC_5/web/src/main/webapp/sellcar/zipCodeEntry.xhtml" changelist="e8f8e988-e18b-4e56-ad82-016ce01a9e12" time="1384103077164" ignored="false" />
     <file path="$USER_HOME$/Documents/Projects/MOBILE_SYC_5/web/src/main/webapp/sellcar/login.xhtml" changelist="e8f8e988-e18b-4e56-ad82-016ce01a9e12" time="1384103173185" ignored="false" />
     <file path="$USER_HOME$/Documents/Projects/MOBILE_SYC_5/web/src/main/webapp/sellcar/forgotAdId.xhtml" changelist="e8f8e988-e18b-4e56-ad82-016ce01a9e12" time="1384103179982" ignored="false" />
-    <file path="/.gitignore" changelist="e8f8e988-e18b-4e56-ad82-016ce01a9e12" time="1384139547213" ignored="false" />
+    <file path="/.gitignore" changelist="e8f8e988-e18b-4e56-ad82-016ce01a9e12" time="1384139906540" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +134,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.04608295">
+            <state line="4" column="5" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0921659">
               <folding />
             </state>
           </provider>
@@ -704,7 +704,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.04608295">
+        <state line="4" column="5" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0921659">
           <folding />
         </state>
       </provider>
