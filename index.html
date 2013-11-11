@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+    <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">-->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0-alpha.2/jquery.mobile-1.4.0-alpha.2.min.css" />
+    <link rel="stylesheet" href="css/themes.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>-->
+    <!--<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>-->
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.0-alpha.2/jquery.mobile-1.4.0-alpha.2.min.js"></script>
+
+    <!-- (Start) Add the features of jQuery UI sortable -->
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+    <script src="js/vendor/handlebars-v1.1.2.js"></script>
+    <script src="js/vendor/jquery-xml2json-plugin.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div data-role="page" id="moviesPage">
+
+    <div data-role="header" data-theme='b'>
+        <h1>Movies</h1>
+    </div>
+
+    <div data-role="content">
+
+        <ul id="movieListTypeList">
+            <li class="ActiveListType" id="nowPlaying">
+                Now Playing
+            </li>
+            <li id="comingSoon">
+                Coming Soon
+            </li>
+            <li id="alphabetical">
+                A-Z
+            </li>
+        </ul>
+
+        <div class="SearchResultsSection">
+            <ul id="movieList" data-role="listview" data-filter="true" data-filter-placeholder="Search..."
+                data-icon="arrow-r"
+            >
+            </ul>
+        </div>
+        <script id="movieList-template" type="text/x-handlebars-template">
+            {{#each movies}}
+            <li>
+                <img src="{{this.Image}}" />
+                <div class="Description">
+                    <h3>
+                        <a href="">
+                            {{this.Name}}
+                        </a>
+                    </h3>
+                    <p>
+                        {{this.Genre}}, {{this.Length}} Mins {{this.Rating}}
+                    </p>
+                    <p>
+                        {{this.LeadStars}}
+                    </p>
+                </div>
+            </li>
+            {{/each}}
+        </script>
+    </div>
+
+    <div data-role="footer">
+        <div data-role="navbar" data-theme="c">
+            <ul>
+                <li><a href="#moviesPage">Movies</a></li>
+                <li><a href="#trailersPage">Trailers</a></li>
+                <li><a href="#myAccountPage">My Account</a></li>
+                <li><a href="#aboutPage">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<div data-role="page" id="trailersPage">
+    <div data-role="header">
+        <h1>Trailers</h1>
+    </div>
+
+    <div data-role="content">
+    </div>
+
+    <div data-role="footer">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#moviesPage">Movies</a></li>
+                <li><a href="#trailersPage">Trailers</a></li>
+                <li><a href="#myAccountPage">My Account</a></li>
+                <li><a href="#aboutPage">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<div data-role="page" id="myAccountPage">
+    <div data-role="header">
+        <h1>My Account</h1>
+    </div>
+
+    <div data-role="content">
+    </div>
+
+    <div data-role="footer">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#moviesPage">Movies</a></li>
+                <li><a href="#trailersPage">Trailers</a></li>
+                <li><a href="#myAccountPage">My Account</a></li>
+                <li><a href="#aboutPage">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<div data-role="page" id="aboutPage">
+    <div data-role="header">
+        <h1>About</h1>
+    </div>
+
+    <div data-role="content">
+    </div>
+
+    <div data-role="footer">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#moviesPage">Movies</a></li>
+                <li><a href="#trailersPage">Trailers</a></li>
+                <li><a href="#myAccountPage">My Account</a></li>
+                <li><a href="#aboutPage">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
